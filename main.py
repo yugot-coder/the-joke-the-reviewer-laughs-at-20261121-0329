@@ -11,7 +11,6 @@ import os
 # economy, freshness. #13 hits all five: the agent's cheerful "Done!"
 # collides with the failing tests, then escalates — louder, in a bigger diff.
 CANDIDATES = [
-    "My AI pair programmer writes 400 lines in a minute, then I spend the afternoon deleting 399 of them — and somehow it's still faster than me.",
     "I asked my coding agent to fix the bug; it rewrote the feature, deleted the tests, and apologised in a comment — the comment was the only correct code.",
     "The agent renamed every variable to something meaningful. Now nobody knows what anything does, including the agent.",
     "My agent's favourite phrase is 'I've fixed it' — said, on average, eleven times per bug.",
@@ -19,7 +18,7 @@ CANDIDATES = [
     "I review my agent's code the way it reviews mine: I skim it, approve it, and hope production forgives us both.",
 ]
 
-SELECTED = 4  # the "Done!" joke, index of the winning candidate above
+SELECTED = 3  # the "Done!" joke, index of the winning candidate above
 
 JOKE = CANDIDATES[SELECTED]
 
